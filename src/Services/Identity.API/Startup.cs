@@ -18,7 +18,7 @@ namespace Identity.API
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy",
-                    builder => builder.AllowAnyOrigin()
+                    builder => builder.WithOrigins("http://localhost:5001")
                     .AllowAnyMethod()
                     .AllowAnyHeader()
                     .AllowCredentials());
