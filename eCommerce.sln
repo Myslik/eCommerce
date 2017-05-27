@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.API", "src\Services\Identity.API\Identity.API.csproj", "{799A2F43-5E85-4D37-B19C-33F868190986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "src\CLI\Client\Client.csproj", "{9D0B24EB-B578-4939-83C7-A1358E96C99E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "src\Services\Catalog.API\Catalog.API.csproj", "{344EF2FE-75CB-41EE-BF54-23E31E6E15CD}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{799A2F43-5E85-4D37-B19C-33F868190986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799A2F43-5E85-4D37-B19C-33F868190986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799A2F43-5E85-4D37-B19C-33F868190986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799A2F43-5E85-4D37-B19C-33F868190986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D0B24EB-B578-4939-83C7-A1358E96C99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0B24EB-B578-4939-83C7-A1358E96C99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0B24EB-B578-4939-83C7-A1358E96C99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0B24EB-B578-4939-83C7-A1358E96C99E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{344EF2FE-75CB-41EE-BF54-23E31E6E15CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344EF2FE-75CB-41EE-BF54-23E31E6E15CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344EF2FE-75CB-41EE-BF54-23E31E6E15CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344EF2FE-75CB-41EE-BF54-23E31E6E15CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
